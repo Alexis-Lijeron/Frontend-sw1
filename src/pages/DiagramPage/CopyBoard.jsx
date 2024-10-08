@@ -3,7 +3,7 @@ import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { useParams } from 'react-router-dom';
 export const CopyBoard = () => {
     const params=useParams();
-    const link=`http://localhost:5173/diagram/${params.id}`;
+    const link=`https://frontend-sw1.onrender.com/diagram/${params.id}`;
 
     const handleCopyClick = () => {
         // Aquí puedes agregar cualquier lógica adicional que desees antes de copiar el contenido
